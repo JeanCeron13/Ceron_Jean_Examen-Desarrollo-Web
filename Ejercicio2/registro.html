@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registrarse</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="contenedor contenido-header">
+            <a href="/">
+                <h1 class="titulo-registro">La cita Perfecta</h1>
+            </a>
+        </div>
+    </header>
+
+    <main class="contenedor seccion contenido-centrado">
+        <a href="./paginaCita.html" class="regreso boton boton-rosado">Regresar</a>
+        <h2 class="fw-300 centrar-texto">Registro</h2>
+        <form action="">
+            <fieldset>
+                <legend>Informacion Personal</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Tu Nombre" required>
+
+                <label for="telefonoCon">Teléfono Convencional:</label>
+                <input type="tel" id="telefonoCon" placeholder="Tu Telefono Convencional" required>
+                <label for="telefonoMov">Teléfono Móvil:</label>
+                <input type="tel" id="telefonoMov" placeholder="Tu Telefono Móvil" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" placeholder="Tu correo electronico" required>
+
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" placeholder="Escribe tu contraseña" required>
+                
+                <label for="nacionalidad">Nacionalidad:</label>
+                <input type="text" id="nacionalidad" placeholder="Tu Nacionalidad" required>
+                <label for="paisResidencia">País de residencia:</label>
+                <input type="text" id="paisResidencia" placeholder="Tu país de residencia" required>
+                <label for="ciudadResidencia">Ciudad de Residencia:</label>
+                <input type="text" id="ciudadResidencia" placeholder="Tu ciudad de residencia" required>
+            </fieldset>
+            <div class="boton-centro" href="index.html">
+                <input type="submit" value="Registrar" class="boton boton-rosado">
+            </div>  
+        </form>
+    </main>
+</body>
+
+</html>
